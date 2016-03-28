@@ -1,7 +1,9 @@
 (function(angular) {
 
-    App.stadtApp.controller('reviewsController', function($scope) {
-        $scope.message = 'Reviews about your city.';
+    stadtApp.controller('reviewsController', function($scope) {
+
+        $scope.message = stadtApp.currentCity.reviews;
+
     });
 
 })(window.angular);

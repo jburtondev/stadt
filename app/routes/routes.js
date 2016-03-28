@@ -1,7 +1,7 @@
 (function(angular) {
 
     // Route configurations
-    App.stadtApp.config(function($routeProvider) {
+    stadtApp.config(function($routeProvider) {
         $routeProvider
 
         // route for the general page
